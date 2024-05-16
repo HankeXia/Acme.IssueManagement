@@ -1,0 +1,111 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "Acme.IssueManagement.Domain.Shared": {
+      "path": "src/Acme.IssueManagement.Domain.Shared/Acme.IssueManagement.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "Acme.IssueManagement.Domain": {
+      "path": "src/Acme.IssueManagement.Domain/Acme.IssueManagement.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "Acme.IssueManagement.Application.Contracts": {
+      "path": "src/Acme.IssueManagement.Application.Contracts/Acme.IssueManagement.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "Acme.IssueManagement.Application": {
+      "path": "src/Acme.IssueManagement.Application/Acme.IssueManagement.Application.abppkg.json",
+      "folder": "src"
+    },
+    "Acme.IssueManagement.EntityFrameworkCore": {
+      "path": "src/Acme.IssueManagement.EntityFrameworkCore/Acme.IssueManagement.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "Acme.IssueManagement.MongoDB": {
+      "path": "src/Acme.IssueManagement.MongoDB/Acme.IssueManagement.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "Acme.IssueManagement.HttpApi": {
+      "path": "src/Acme.IssueManagement.HttpApi/Acme.IssueManagement.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "Acme.IssueManagement.HttpApi.Client": {
+      "path": "src/Acme.IssueManagement.HttpApi.Client/Acme.IssueManagement.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "Acme.IssueManagement.TestBase": {
+      "path": "test/Acme.IssueManagement.TestBase/Acme.IssueManagement.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "Acme.IssueManagement.EntityFrameworkCore.Tests": {
+      "path": "test/Acme.IssueManagement.EntityFrameworkCore.Tests/Acme.IssueManagement.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Acme.IssueManagement.MongoDB.Tests": {
+      "path": "test/Acme.IssueManagement.MongoDB.Tests/Acme.IssueManagement.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Acme.IssueManagement.Domain.Tests": {
+      "path": "test/Acme.IssueManagement.Domain.Tests/Acme.IssueManagement.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Acme.IssueManagement.Application.Tests": {
+      "path": "test/Acme.IssueManagement.Application.Tests/Acme.IssueManagement.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Acme.IssueManagement.HttpApi.Host": {
+      "path": "host/Acme.IssueManagement.HttpApi.Host/Acme.IssueManagement.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Acme.IssueManagement.Web": {
+      "path": "src/Acme.IssueManagement.Web/Acme.IssueManagement.Web.abppkg.json",
+      "folder": "src"
+    },
+    "Acme.IssueManagement.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Acme.IssueManagement.HttpApi.Client.ConsoleTestApp/Acme.IssueManagement.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "Acme.IssueManagement.Web.Host": {
+      "path": "host/Acme.IssueManagement.Web.Host/Acme.IssueManagement.Web.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Acme.IssueManagement.AuthServer": {
+      "path": "host/Acme.IssueManagement.AuthServer/Acme.IssueManagement.AuthServer.abppkg.json",
+      "folder": "host"
+    },
+    "Acme.IssueManagement.Host.Shared": {
+      "path": "host/Acme.IssueManagement.Host.Shared/Acme.IssueManagement.Host.Shared.abppkg.json",
+      "folder": "host"
+    },
+    "Acme.IssueManagement.Web.Unified": {
+      "path": "host/Acme.IssueManagement.Web.Unified/Acme.IssueManagement.Web.Unified.abppkg.json",
+      "folder": "host"
+    },
+    "Acme.IssueManagement.Blazor": {
+      "path": "src/Acme.IssueManagement.Blazor/Acme.IssueManagement.Blazor.abppkg.json",
+      "folder": "src"
+    },
+    "Acme.IssueManagement.Blazor.Host": {
+      "path": "host/Acme.IssueManagement.Blazor.Host/Acme.IssueManagement.Blazor.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Acme.IssueManagement.Blazor.Server": {
+      "path": "src/Acme.IssueManagement.Blazor.Server/Acme.IssueManagement.Blazor.Server.abppkg.json",
+      "folder": "src"
+    },
+    "Acme.IssueManagement.Blazor.WebAssembly": {
+      "path": "src/Acme.IssueManagement.Blazor.WebAssembly/Acme.IssueManagement.Blazor.WebAssembly.abppkg.json",
+      "folder": "src"
+    },
+    "Acme.IssueManagement.Blazor.Server.Host": {
+      "path": "host/Acme.IssueManagement.Blazor.Server.Host/Acme.IssueManagement.Blazor.Server.Host.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

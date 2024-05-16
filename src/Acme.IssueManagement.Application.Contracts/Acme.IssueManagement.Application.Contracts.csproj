@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Acme.IssueManagement</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FastReport.Core.Skia.Demo" Version="2024.1.9" />
+    <PackageReference Include="FastReport.Data.MsSql" Version="2024.1.9" />
+    <PackageReference Include="HarfBuzzSharp.NativeAssets.Linux" Version="7.3.0.2" />
+    <PackageReference Include="SkiaSharp.NativeAssets.Linux.NoDependencies" Version="2.88.8" />
+    <PackageReference Include="Volo.Abp.Ddd.Application.Contracts" Version="6.0.3" />
+    <PackageReference Include="Volo.Abp.Authorization" Version="6.0.3" />
+    <ProjectReference Include="..\Acme.IssueManagement.Domain.Shared\Acme.IssueManagement.Domain.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

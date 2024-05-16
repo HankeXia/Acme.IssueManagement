@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "Acme.IssueManagement": {
+      "path": "Acme.IssueManagement.abpmdl.json"
+    }
+  }
+}

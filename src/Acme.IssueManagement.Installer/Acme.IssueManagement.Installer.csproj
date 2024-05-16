@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <Import Project="..\..\common.props" />
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <GenerateEmbeddedFilesManifest>true</GenerateEmbeddedFilesManifest>
+        <RootNamespace>Acme.IssueManagement</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Volo.Abp.VirtualFileSystem" Version="6.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="..\..\Acme.IssueManagement.abpmdl.json" />
+      <EmbeddedResource Include="..\..\Acme.IssueManagement.abpmdl.json" />
+    </ItemGroup>
+
+</Project>

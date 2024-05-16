@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="04/29/2024 14:35:10" ReportInfo.Modified="05/16/2024 16:22:26" ReportInfo.CreatorVersion="2024.1.9.0">
+  <Dictionary>
+    <TableDataSource Name="table1" ReferenceName="table1" DataType="System.Int32" Enabled="true">
+      <Column Name="name" DataType="System.String"/>
+      <Column Name="sex" DataType="System.String"/>
+    </TableDataSource>
+  </Dictionary>
+  <ReportPage Name="Page1" Landscape="true" PaperWidth="297" PaperHeight="210" RawPaperSize="9" LeftMargin="5" TopMargin="5" RightMargin="5" BottomMargin="5" Watermark.Font="宋体, 60pt">
+    <ReportTitleBand Name="ReportTitle1" Width="1084.86" Height="66.15">
+      <TextObject Name="Text1" Left="400.68" Top="9.45" Width="283.5" Height="28.35" Text="手术排班表" HorzAlign="Center" Font="宋体, 13.8pt, style=Bold"/>
+      <TextObject Name="Text2" Left="9.45" Top="38.8" Width="105.84" Height="18.9" Text="手术例数：" Font="宋体, 12pt, style=Bold"/>
+    </ReportTitleBand>
+    <ColumnHeaderBand Name="ColumnHeader1" Top="69.35" Width="1084.86" Height="60.48">
+      <TableObject Name="Table1" Width="1088.64" Height="60.48" Border.Lines="All">
+        <TableColumn Name="Column1" Width="18.9"/>
+        <TableColumn Name="Column2" Width="34.02"/>
+        <TableColumn Name="Column3" Width="18.9"/>
+        <TableColumn Name="Column4" Width="34.02"/>
+        <TableColumn Name="Column5" Width="34.02"/>
+        <TableColumn Name="Column6" Width="41.58"/>
+        <TableColumn Name="Column7" Width="18.9"/>
+        <TableColumn Name="Column8" Width="30.24"/>
+        <TableColumn Name="Column9" Width="60.48"/>
+        <TableColumn Name="Column10" Width="60.48"/>
+        <TableColumn Name="Column11" Width="75.6"/>
+        <TableColumn Name="Column12" Width="18.9"/>
+        <TableColumn Name="Column13" Width="22.68"/>
+        <TableColumn Name="Column14" Width="120.96"/>
+        <TableColumn Name="Column15" Width="170.1"/>
+        <TableColumn Name="Column16" Width="64.26"/>
+        <TableColumn Name="Column18" Width="56.7"/>
+        <TableColumn Name="Column19" Width="22.68"/>
+        <TableColumn Name="Column20" Width="37.8"/>
+        <TableColumn Name="Column21" Width="22.68"/>
+        <TableColumn Name="Column22" Width="22.68"/>
+        <TableColumn Name="Column23" Width="71.82"/>
+        <TableColumn Name="Column24" Width="30.24"/>
+        <TableRow Name="Row1" Height="60.48">
+          <TableCell Name="Cell1" Border.Lines="All" Text="序号" Padding="0,0,0,0" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt, style=Bold"/>
+          <TableCell Name="Cell2" Border.Lines="All" Text="术间" Padding="0,0,0,0" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt, style=Bold"/>
+          <TableCell Name="Cell3" Border.Lines="All" Text="台次" Padding="0,0,0,0" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt, style=Bold"/>
+          <TableCell Name="Cell4" Border.Lines="All" Text="时间" Padding="0,0,0,0" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt, style=Bold"/>
+          <TableCell Name="Cell5" Border.Lines="All" Text="预计时长" Padding="0,0,0,0" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt, style=Bold"/>
+          <TableCell Name="Cell26" Border.Lines="All" Text="姓名" Padding="0,0,0,0" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt, style=Bold"/>
+          <TableCell Name="Cell27" Border.Lines="All" Text="性别" Padding="0,0,0,0" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt, style=Bold"/>
+          <TableCell Name="Cell28" Border.Lines="All" Text="年龄" Padding="0,0,0,0" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt, style=Bold"/>
+          <TableCell Name="Cell29" Border.Lines="All" Text="住院号" Padding="0,0,0,0" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt, style=Bold"/>
+          <TableCell Name="Cell30" Border.Lines="All" Text="病人id" Padding="0,0,0,0" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt, style=Bold"/>
+          <TableCell Name="Cell31" Border.Lines="All" Text="病区" Padding="0,0,0,0" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt, style=Bold"/>
+          <TableCell Name="Cell32" Border.Lines="All" Text="床号" Padding="0,0,0,0" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt, style=Bold"/>
+          <TableCell Name="Cell33" Border.Lines="All" Text="手术级别" Padding="0,0,0,0" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 9pt, style=Bold"/>
+          <TableCell Name="Cell34" Border.Lines="All" Text="诊断" Padding="0,0,0,0" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt, style=Bold"/>
+          <TableCell Name="Cell35" Border.Lines="All" Text="手术名称" Padding="0,0,0,0" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt, style=Bold"/>
+          <TableCell Name="Cell36" Border.Lines="All" Text="麻醉方式" Padding="0,0,0,0" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt, style=Bold"/>
+          <TableCell Name="Cell38" Border.Lines="All" Text="手术者" Padding="0,0,0,0" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt, style=Bold"/>
+          <TableCell Name="Cell39" Border.Lines="All" Text="助手" Padding="0,0,0,0" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt, style=Bold"/>
+          <TableCell Name="Cell40" Border.Lines="All" Text="麻醉医生" Padding="0,0,0,0" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt, style=Bold"/>
+          <TableCell Name="Cell41" Border.Lines="All" Text="器械护士" Padding="0,0,0,0" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 9pt, style=Bold"/>
+          <TableCell Name="Cell42" Border.Lines="All" Text="巡回护士" Padding="0,0,0,0" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 9pt, style=Bold"/>
+          <TableCell Name="Cell43" Border.Lines="All" Text="备注" Padding="0,0,0,0" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt, style=Bold"/>
+          <TableCell Name="Cell44" Border.Lines="All" Text="手&#13;&#10;术&#13;&#10;部&#13;&#10;位" Padding="0,0,0,0" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 9pt, style=Bold"/>
+        </TableRow>
+      </TableObject>
+    </ColumnHeaderBand>
+    <DataBand Name="Data1" Top="133.03" Width="1084.86" Height="37.8" DataSource="table1" RowCount="2">
+      <TableObject Name="Table2" Width="1088.64" Height="37.8" Border.Lines="Left, Right, Bottom" PrintOnParent="true">
+        <TableColumn Name="Column25" Width="18.9"/>
+        <TableColumn Name="Column26" Width="34.02"/>
+        <TableColumn Name="Column27" Width="18.9"/>
+        <TableColumn Name="Column28" Width="34.02"/>
+        <TableColumn Name="Column29" Width="34.02"/>
+        <TableColumn Name="Column30" Width="41.58"/>
+        <TableColumn Name="Column31" Width="18.9"/>
+        <TableColumn Name="Column32" Width="30.24"/>
+        <TableColumn Name="Column33" Width="60.48"/>
+        <TableColumn Name="Column34" Width="60.48"/>
+        <TableColumn Name="Column35" Width="75.6"/>
+        <TableColumn Name="Column36" Width="18.9"/>
+        <TableColumn Name="Column37" Width="22.68"/>
+        <TableColumn Name="Column38" Width="120.96"/>
+        <TableColumn Name="Column39" Width="170.1"/>
+        <TableColumn Name="Column40" Width="64.26"/>
+        <TableColumn Name="Column41" Width="56.7"/>
+        <TableColumn Name="Column42" Width="22.68"/>
+        <TableColumn Name="Column43" Width="37.8"/>
+        <TableColumn Name="Column44" Width="22.68"/>
+        <TableColumn Name="Column45" Width="22.68"/>
+        <TableColumn Name="Column46" Width="71.82"/>
+        <TableColumn Name="Column47" Width="30.24"/>
+        <TableRow Name="Row2" Height="37.8">
+          <TableCell Name="Cell45" Border.Lines="Left, Right, Bottom" Padding="0,0,0,0" VertAlign="Center" Font="宋体, 8pt"/>
+          <TableCell Name="Cell46" Border.Lines="Left, Right, Bottom" Padding="0,0,0,0" VertAlign="Center" Font="宋体, 8pt"/>
+          <TableCell Name="Cell47" Border.Lines="Left, Right, Bottom" Padding="0,0,0,0" VertAlign="Center" Font="宋体, 8pt"/>
+          <TableCell Name="Cell48" Border.Lines="Left, Right, Bottom" Padding="0,0,0,0" VertAlign="Center" Font="宋体, 8pt"/>
+          <TableCell Name="Cell49" Border.Lines="Left, Right, Bottom" Text="8小时" Padding="0,0,0,0" VertAlign="Center" Font="宋体, 8pt"/>
+          <TableCell Name="Cell50" Border.Lines="Left, Right, Bottom" Text="[table1.name]" Padding="0,0,0,0" VertAlign="Center" Font="宋体, 8pt"/>
+          <TableCell Name="Cell51" Border.Lines="Left, Right, Bottom" Text="[table1.sex]" Padding="0,0,0,0" VertAlign="Center" Font="宋体, 8pt"/>
+          <TableCell Name="Cell52" Border.Lines="Left, Right, Bottom" Padding="0,0,0,0" VertAlign="Center" Font="宋体, 8pt"/>
+          <TableCell Name="Cell53" Border.Lines="Left, Right, Bottom" Padding="0,0,0,0" VertAlign="Center" Font="宋体, 8pt"/>
+          <TableCell Name="Cell54" Border.Lines="Left, Right, Bottom" Padding="0,0,0,0" VertAlign="Center" Font="宋体, 8pt"/>
+          <TableCell Name="Cell55" Border.Lines="Left, Right, Bottom" Padding="0,0,0,0" VertAlign="Center" Font="宋体, 8pt"/>
+          <TableCell Name="Cell56" Border.Lines="Left, Right, Bottom" Padding="0,0,0,0" VertAlign="Center" Font="宋体, 8pt"/>
+          <TableCell Name="Cell57" Border.Lines="Left, Right, Bottom" Padding="0,0,0,0" VertAlign="Center" Font="宋体, 8pt"/>
+          <TableCell Name="Cell58" Border.Lines="Left, Right, Bottom" Padding="0,0,0,0" VertAlign="Center" Font="宋体, 8pt"/>
+          <TableCell Name="Cell59" Border.Lines="Left, Right, Bottom" Padding="0,0,0,0" VertAlign="Center" Font="宋体, 8pt"/>
+          <TableCell Name="Cell60" Border.Lines="Left, Right, Bottom" Padding="0,0,0,0" VertAlign="Center" Font="宋体, 8pt"/>
+          <TableCell Name="Cell61" Border.Lines="Left, Right, Bottom" Padding="0,0,0,0" VertAlign="Center" Font="宋体, 8pt"/>
+          <TableCell Name="Cell62" Border.Lines="Left, Right, Bottom" Padding="0,0,0,0" VertAlign="Center" Font="宋体, 8pt"/>
+          <TableCell Name="Cell63" Border.Lines="Left, Right, Bottom" Padding="0,0,0,0" VertAlign="Center" Font="宋体, 8pt"/>
+          <TableCell Name="Cell64" Border.Lines="Left, Right, Bottom" Padding="0,0,0,0" VertAlign="Center" Font="宋体, 8pt"/>
+          <TableCell Name="Cell65" Border.Lines="Left, Right, Bottom" Padding="0,0,0,0" VertAlign="Center" Font="宋体, 8pt"/>
+          <TableCell Name="Cell66" Border.Lines="Left, Right, Bottom" Padding="0,0,0,0" VertAlign="Center" Font="宋体, 8pt"/>
+          <TableCell Name="Cell67" Border.Lines="Left, Right, Bottom" Padding="0,0,0,0" VertAlign="Center" Font="宋体, 8pt"/>
+        </TableRow>
+      </TableObject>
+    </DataBand>
+  </ReportPage>
+</Report>

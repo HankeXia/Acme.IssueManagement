@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Acme.IssueManagement</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.MongoDB" Version="6.0.3" />
+    <ProjectReference Include="..\Acme.IssueManagement.Domain\Acme.IssueManagement.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
